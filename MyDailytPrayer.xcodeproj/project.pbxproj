@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		083CB5BD1BA7B07D000F99E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083CB5BC1BA7B07D000F99E7 /* AppDelegate.swift */; };
+		083CB5BF1BA7B07D000F99E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083CB5BE1BA7B07D000F99E7 /* ViewController.swift */; };
+		083CB5C21BA7B07D000F99E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083CB5C01BA7B07D000F99E7 /* Main.storyboard */; };
+		083CB5C41BA7B07D000F99E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083CB5C31BA7B07D000F99E7 /* Images.xcassets */; };
+		083CB5C71BA7B07D000F99E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 083CB5C51BA7B07D000F99E7 /* LaunchScreen.xib */; };
+		083CB5D31BA7B07D000F99E7 /* MyDailytPrayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083CB5D21BA7B07D000F99E7 /* MyDailytPrayerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		083CB5CD1BA7B07D000F99E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 083CB5AF1BA7B07D000F99E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 083CB5B61BA7B07D000F99E7;
+			remoteInfo = MyDailytPrayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083CB5B71BA7B07D000F99E7 /* MyDailytPrayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDailytPrayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		083CB5BB1BA7B07D000F99E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083CB5BC1BA7B07D000F99E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		083CB5BE1BA7B07D000F99E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		083CB5C11BA7B07D000F99E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		083CB5C31BA7B07D000F99E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		083CB5C61BA7B07D000F99E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		083CB5CC1BA7B07D000F99E7 /* MyDailytPrayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDailytPrayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		083CB5D11BA7B07D000F99E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083CB5D21BA7B07D000F99E7 /* MyDailytPrayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDailytPrayerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		083CB5B41BA7B07D000F99E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083CB5C91BA7B07D000F99E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083CB5AE1BA7B07D000F99E7 = {
+			isa = PBXGroup;
+			children = (
+				083CB5B91BA7B07D000F99E7 /* MyDailytPrayer */,
+				083CB5CF1BA7B07D000F99E7 /* MyDailytPrayerTests */,
+				083CB5B81BA7B07D000F99E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		083CB5B81BA7B07D000F99E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				083CB5B71BA7B07D000F99E7 /* MyDailytPrayer.app */,
+				083CB5CC1BA7B07D000F99E7 /* MyDailytPrayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		083CB5B91BA7B07D000F99E7 /* MyDailytPrayer */ = {
+			isa = PBXGroup;
+			children = (
+				083CB5BC1BA7B07D000F99E7 /* AppDelegate.swift */,
+				083CB5BE1BA7B07D000F99E7 /* ViewController.swift */,
+				083CB5C01BA7B07D000F99E7 /* Main.storyboard */,
+				083CB5C31BA7B07D000F99E7 /* Images.xcassets */,
+				083CB5C51BA7B07D000F99E7 /* LaunchScreen.xib */,
+				083CB5BA1BA7B07D000F99E7 /* Supporting Files */,
+			);
+			path = MyDailytPrayer;
+			sourceTree = "<group>";
+		};
+		083CB5BA1BA7B07D000F99E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				083CB5BB1BA7B07D000F99E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		083CB5CF1BA7B07D000F99E7 /* MyDailytPrayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				083CB5D21BA7B07D000F99E7 /* MyDailytPrayerTests.swift */,
+				083CB5D01BA7B07D000F99E7 /* Supporting Files */,
+			);
+			path = MyDailytPrayerTests;
+			sourceTree = "<group>";
+		};
+		083CB5D01BA7B07D000F99E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				083CB5D11BA7B07D000F99E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		083CB5B61BA7B07D000F99E7 /* MyDailytPrayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083CB5D61BA7B07D000F99E7 /* Build configuration list for PBXNativeTarget "MyDailytPrayer" */;
+			buildPhases = (
+				083CB5B31BA7B07D000F99E7 /* Sources */,
+				083CB5B41BA7B07D000F99E7 /* Frameworks */,
+				083CB5B51BA7B07D000F99E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDailytPrayer;
+			productName = MyDailytPrayer;
+			productReference = 083CB5B71BA7B07D000F99E7 /* MyDailytPrayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		083CB5CB1BA7B07D000F99E7 /* MyDailytPrayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083CB5D91BA7B07D000F99E7 /* Build configuration list for PBXNativeTarget "MyDailytPrayerTests" */;
+			buildPhases = (
+				083CB5C81BA7B07D000F99E7 /* Sources */,
+				083CB5C91BA7B07D000F99E7 /* Frameworks */,
+				083CB5CA1BA7B07D000F99E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				083CB5CE1BA7B07D000F99E7 /* PBXTargetDependency */,
+			);
+			name = MyDailytPrayerTests;
+			productName = MyDailytPrayerTests;
+			productReference = 083CB5CC1BA7B07D000F99E7 /* MyDailytPrayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		083CB5AF1BA7B07D000F99E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Neal Lester";
+				TargetAttributes = {
+					083CB5B61BA7B07D000F99E7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					083CB5CB1BA7B07D000F99E7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 083CB5B61BA7B07D000F99E7;
+					};
+				};
+			};
+			buildConfigurationList = 083CB5B21BA7B07D000F99E7 /* Build configuration list for PBXProject "MyDailytPrayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 083CB5AE1BA7B07D000F99E7;
+			productRefGroup = 083CB5B81BA7B07D000F99E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				083CB5B61BA7B07D000F99E7 /* MyDailytPrayer */,
+				083CB5CB1BA7B07D000F99E7 /* MyDailytPrayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		083CB5B51BA7B07D000F99E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083CB5C21BA7B07D000F99E7 /* Main.storyboard in Resources */,
+				083CB5C71BA7B07D000F99E7 /* LaunchScreen.xib in Resources */,
+				083CB5C41BA7B07D000F99E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083CB5CA1BA7B07D000F99E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		083CB5B31BA7B07D000F99E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083CB5BF1BA7B07D000F99E7 /* ViewController.swift in Sources */,
+				083CB5BD1BA7B07D000F99E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083CB5C81BA7B07D000F99E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083CB5D31BA7B07D000F99E7 /* MyDailytPrayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		083CB5CE1BA7B07D000F99E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 083CB5B61BA7B07D000F99E7 /* MyDailytPrayer */;
+			targetProxy = 083CB5CD1BA7B07D000F99E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		083CB5C01BA7B07D000F99E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				083CB5C11BA7B07D000F99E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		083CB5C51BA7B07D000F99E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				083CB5C61BA7B07D000F99E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		083CB5D41BA7B07D000F99E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		083CB5D51BA7B07D000F99E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		083CB5D71BA7B07D000F99E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyDailytPrayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		083CB5D81BA7B07D000F99E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyDailytPrayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		083CB5DA1BA7B07D000F99E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyDailytPrayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDailytPrayer.app/MyDailytPrayer";
+			};
+			name = Debug;
+		};
+		083CB5DB1BA7B07D000F99E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyDailytPrayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyDailytPrayer.app/MyDailytPrayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083CB5B21BA7B07D000F99E7 /* Build configuration list for PBXProject "MyDailytPrayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083CB5D41BA7B07D000F99E7 /* Debug */,
+				083CB5D51BA7B07D000F99E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		083CB5D61BA7B07D000F99E7 /* Build configuration list for PBXNativeTarget "MyDailytPrayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083CB5D71BA7B07D000F99E7 /* Debug */,
+				083CB5D81BA7B07D000F99E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		083CB5D91BA7B07D000F99E7 /* Build configuration list for PBXNativeTarget "MyDailytPrayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083CB5DA1BA7B07D000F99E7 /* Debug */,
+				083CB5DB1BA7B07D000F99E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 083CB5AF1BA7B07D000F99E7 /* Project object */;
+}
