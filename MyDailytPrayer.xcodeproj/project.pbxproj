@@ -13,6 +13,8 @@
 		083CB5C41BA7B07D000F99E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083CB5C31BA7B07D000F99E7 /* Images.xcassets */; };
 		083CB5C71BA7B07D000F99E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 083CB5C51BA7B07D000F99E7 /* LaunchScreen.xib */; };
 		083CB5D31BA7B07D000F99E7 /* MyDailytPrayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083CB5D21BA7B07D000F99E7 /* MyDailytPrayerTests.swift */; };
+		08A5CA751BA92F0A0004CD81 /* BibleVerses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A5CA6E1BA920690004CD81 /* BibleVerses.swift */; };
+		08A5CA761BA92FBF0004CD81 /* BibleVersesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A5CA701BA926F20004CD81 /* BibleVersesTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		083CB5CC1BA7B07D000F99E7 /* MyDailytPrayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDailytPrayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		083CB5D11BA7B07D000F99E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		083CB5D21BA7B07D000F99E7 /* MyDailytPrayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDailytPrayerTests.swift; sourceTree = "<group>"; };
+		08A5CA6E1BA920690004CD81 /* BibleVerses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleVerses.swift; sourceTree = "<group>"; };
+		08A5CA701BA926F20004CD81 /* BibleVersesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BibleVersesTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		083CB5B91BA7B07D000F99E7 /* MyDailytPrayer */ = {
 			isa = PBXGroup;
 			children = (
+				08A5CA6E1BA920690004CD81 /* BibleVerses.swift */,
 				083CB5BC1BA7B07D000F99E7 /* AppDelegate.swift */,
 				083CB5BE1BA7B07D000F99E7 /* ViewController.swift */,
 				083CB5C01BA7B07D000F99E7 /* Main.storyboard */,
@@ -99,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				083CB5D21BA7B07D000F99E7 /* MyDailytPrayerTests.swift */,
+				08A5CA701BA926F20004CD81 /* BibleVersesTest.swift */,
 				083CB5D01BA7B07D000F99E7 /* Supporting Files */,
 			);
 			path = MyDailytPrayerTests;
@@ -212,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A5CA751BA92F0A0004CD81 /* BibleVerses.swift in Sources */,
 				083CB5BF1BA7B07D000F99E7 /* ViewController.swift in Sources */,
 				083CB5BD1BA7B07D000F99E7 /* AppDelegate.swift in Sources */,
 			);
@@ -221,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A5CA761BA92FBF0004CD81 /* BibleVersesTest.swift in Sources */,
 				083CB5D31BA7B07D000F99E7 /* MyDailytPrayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +419,7 @@
 				083CB5D81BA7B07D000F99E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		083CB5D91BA7B07D000F99E7 /* Build configuration list for PBXNativeTarget "MyDailytPrayerTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				083CB5DB1BA7B07D000F99E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
