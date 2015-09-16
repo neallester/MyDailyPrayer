@@ -44,47 +44,7 @@ class ViewController: UIViewController {
         notification.soundName = UILocalNotificationDefaultSoundName
         notification.repeatInterval = NSCalendarUnit.CalendarUnitDay
         
-        var datecomp1:NSDateComponents = NSDateComponents()
-        datecomp.year = 2015;
-        datecomp.month = 09;
-        datecomp.day = 11;
-        datecomp.hour = 09;
-        datecomp.minute = 30;
-        datecomp.timeZone = NSTimeZone.systemTimeZone()
         
-        
-        var calendar1:NSCalendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
-        var date1:NSDate = calendar.dateFromComponents(datecomp1)!
-        
-        
-        var notification1:UILocalNotification = UILocalNotification()
-        notification.category = "notibible"
-        notification.alertBody = "working"
-        notification.fireDate = date
-        notification.soundName = UILocalNotificationDefaultSoundName
-        notification.repeatInterval = NSCalendarUnit.CalendarUnitDay
-        
-        
-        var datecomp2:NSDateComponents = NSDateComponents()
-        datecomp.year = 2015;
-        datecomp.month = 09;
-        datecomp.day = 11;
-        datecomp.hour = 10;
-        datecomp.minute = 00;
-        datecomp.timeZone = NSTimeZone.systemTimeZone()
-        
-        
-        var calendar2:NSCalendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
-        var date2:NSDate = calendar.dateFromComponents(datecomp2)!
-        
-        
-        var notification2:UILocalNotification = UILocalNotification()
-        notification.category = "notibible"
-        notification.alertBody = "10 manikathe"
-        notification.fireDate = date
-        notification.soundName = UILocalNotificationDefaultSoundName
-        notification.repeatInterval = NSCalendarUnit.CalendarUnitDay
-
             
             UIApplication.sharedApplication().scheduleLocalNotification(notification)
         
