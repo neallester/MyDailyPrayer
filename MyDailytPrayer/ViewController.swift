@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         notification.repeatInterval = NSCalendarUnit.CalendarUnitDay
         
         
-            
+            UIApplication.sharedApplication().cancelAllLocalNotifications()
             UIApplication.sharedApplication().scheduleLocalNotification(notification)
         
     
